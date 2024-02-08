@@ -1,0 +1,31 @@
+{
+  "name": "js-task-04",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://bukshtunovichan.github.io/js-task-04/",
+  "scripts": {
+    "start": "parcel src/*.html --no-cache",
+    "build": "parcel build src/*.html --public-url /js-task-04/ --no-cache",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BukshtunovichAN/js-task-04.git"
+  },
+  "keywords": [],
+  "author": "Anastasiya Bukshtunovich <nastya.trader@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BukshtunovichAN/js-task-04/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
