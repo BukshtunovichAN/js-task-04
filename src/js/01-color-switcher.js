@@ -9,6 +9,7 @@ let isButtonPressed = false;
 
 refs.startBtn.addEventListener('click', () => {
   onPressButton();
+  generateColor();
   timerId = setInterval(() => {
     generateColor();
   }, 1000);

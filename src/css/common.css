@@ -22,3 +22,62 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
+.timer {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+
+  margin-top: 30px;
+}
+
+.field {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.value {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+.clock {
+  background-color: teal
+}
+
+#datetime-picker {
+  font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: 2px solid #bdbdbd;
+    border-radius: 0.25rem;
+    padding-left: 5px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start-btn {
+  font-family: inherit;
+margin-top: 10px;
+ width: 60px;
+ height: 40px;
+}
